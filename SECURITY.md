@@ -1,44 +1,83 @@
-# Security Policy
+# 🔐 Política de Seguridad
 
-## Supported Releases
+---
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 2.0.1   | :white_check_mark: |
-| 2.0.0   | :white_check_mark: |
+## 📦 Versiones Soportadas
 
-## Reporting a Vulnerability
+| Versión | Soporte  |
+| ------- | -------- |
+| 2.0.1   | ✅ Activa |
+| 2.0.0   | ✅ Activa |
 
-Please do not open public github issues or pull requests on this repository for security-related matters. Instead, follow the responsible disclosure process outlined below.
+---
 
-### Scope
+## 🚨 Reportar una Vulnerabilidad
 
-This security policy covers the security of this repository and its code. If you discover a security vulnerability related to this repository, please report it responsibly.
+Por favor **no abras issues públicos ni pull requests** para reportar problemas de seguridad.
 
-### Responsible Disclosure Process
+En su lugar, sigue el proceso de divulgación responsable descrito a continuación.
 
-#### Option 1: Reporting via Github Security Advisors
+---
 
-1. **Contact Us**: Submit your report to [https://github.com/idurar/idurar-erp-crm/security](https://github.com/idurar/idurar-erp-crm/security) with details of the vulnerability. Please provide a clear and concise description of the issue, any potential impact, and a step-by-step demonstration if possible. Please do not include sensitive information in your initial email.
+## 🎯 Alcance
 
-2. **Confirmation**: We will acknowledge receipt of your report within [X] business days and provide an estimated timeline for when you can expect a response.
+Esta política cubre la seguridad de este repositorio y su código.
+Si detectas una vulnerabilidad, repórtala de forma responsable.
 
-3. **Investigation**: We will investigate the issue, which may involve reproducing the vulnerability or seeking further information from you.
+---
 
-4. **Resolution**: Once the vulnerability is confirmed, we will work to address it promptly and develop a fix.
+## 📢 Proceso de Divulgación Responsable
 
-5. **Disclosure**: We will coordinate with you regarding the public disclosure of the vulnerability. We aim to release a security advisory with information about the issue and the fix.
+### 📌 Opción: Reporte directo
 
+1. **Contacto**
 
+Envía un reporte al siguiente correo:
 
-### Safe Harbor
+📧 [anonymus1201a@gmail.com](mailto:anonymus1201a@gmail.com)
 
-We consider security research conducted under this policy to be:
+Incluye:
 
-- Authorized concerning any applicable anti-hacking laws, and we won't initiate legal action against researchers for their findings.
+* Descripción clara de la vulnerabilidad
+* Posible impacto
+* Pasos para reproducir (si es posible)
 
-- Subject to responsible disclosure, where we work with researchers to understand and address reported vulnerabilities before public disclosure.
+---
 
-We appreciate your contributions to the security of this project and community.
+2. **Confirmación**
 
-Thank you!
+Recibirás una confirmación en un plazo aproximado de **1 a 3 días hábiles**.
+
+---
+
+3. **Investigación**
+
+Se analizará el problema, pudiendo solicitar información adicional.
+
+---
+
+4. **Resolución**
+
+Se trabajará en una solución lo más pronto posible.
+
+---
+
+5. **Divulgación**
+
+Se coordinará contigo la publicación del problema una vez resuelto.
+
+---
+
+## 🛡️ Safe Harbor
+
+La investigación de seguridad bajo esta política es considerada:
+
+* ✔ Autorizada dentro de buenas prácticas
+* ✔ Libre de acciones legales cuando se actúe de buena fe
+* ✔ Basada en divulgación responsable
+
+---
+
+## 🙌 Agradecimiento
+
+Agradecemos tu apoyo para mejorar la seguridad de este proyecto y de la comunidad 🚀
