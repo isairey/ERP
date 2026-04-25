@@ -1,101 +1,155 @@
 <div align="center">
-    <a href="https://www.idurarapp.com/">
-  <img src="https://avatars.githubusercontent.com/u/50052356?s=200&v=4" width="128px" />
-    </a>
-    <h1>Open Source ERP / CRM Accounting Invoice Quote</h1>
-    <p align="center">
-        <p>IDURAR ERP CRM | Simple To Use</p>
-    </p>
-    
+  <h1>📊 ERP System</h1>
+  <p><strong>Sistema ERP Open Source para gestión empresarial</strong></p>
 
 ```
- Give a Star ⭐️ & Fork to this project ... Happy coding! 🤩`
+⭐ Dale estrella al proyecto y apóyalo 🚀
 ```
-
-IDURAR is Open Source ERP / CRM (Invoice / Quote / Accounting ) Based on Advanced Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
 
 </div>
 
-**🚀 Self-hosted Entreprise Version** : [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
+---
 
+## 📋 Descripción
 
+Este proyecto es un **ERP (Enterprise Resource Planning)** desarrollado con **JavaScript**, utilizando **Pug como motor de plantillas**, junto con **HTML y CSS** para la interfaz.
 
-## Features :
+El sistema permite gestionar procesos empresariales como facturación, clientes, inventario y administración general, ofreciendo una solución modular, escalable y fácil de usar.
 
-Invoice Management
+---
 
-Payment Management
+## 🚀 Características
 
-Quote Management
+* 📄 Gestión de facturación (Invoices)
+* 💳 Control de pagos
+* 🧾 Generación de cotizaciones (Quotes)
+* 👤 Gestión de clientes
+* 📦 Control de inventario
+* 📊 Panel administrativo
+* 🔐 Sistema de autenticación
+* ⚙️ Arquitectura modular
 
-Customer Management
+---
 
-Ant Design Framework(AntD) 🐜
+## 🛠️ Tecnologías Utilizadas
 
-Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) 👨‍💻
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Pug-A86454?style=for-the-badge&logo=pug&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</p>
 
-### May i can use IDURAR for Commercial use :
+---
 
-- Yes You can use IDURAR for free for personal or Commercial use.
+## 📦 Instalación
 
-## Our Sponsors
+### 1️⃣ Clonar el repositorio
 
-  <a href="https://m.do.co/c/4ead8370b905?ref=idurarapp.com">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
-  </a>
+```bash id="q1w2e3"
+git clone https://github.com/isairey/ERP.git
+cd ERP
+```
 
-#
+---
 
-<img width="1403" alt="Open Source ERP CRM" src="https://github.com/idurar/idurar-erp-crm/assets/136928179/a6712286-7ca6-4822-8902-fb7523533ee8">
+### 2️⃣ Instalar dependencias
 
-## Free Open Source ERP / CRM App
+```bash id="a4s5d6"
+npm install
+```
 
-IDURAR is Open "Fair-Code" Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
+---
 
+### 3️⃣ Ejecutar el proyecto
 
-## Getting started
+```bash id="z7x8c9"
+npm start
+```
 
-1.[Clone the repository](INSTALLATION-INSTRUCTIONS.md#step-1-clone-the-repository)
+---
 
-2.[Create Your MongoDB Account and Database Cluster](INSTALLATION-INSTRUCTIONS.md#Step-2-Create-Your-MongoDB-Account-and-Database-Cluster)
+👉 Accede en:
+http://localhost:3000
 
-3.[Edit the Environment File](INSTALLATION-INSTRUCTIONS.md#Step-3-Edit-the-Environment-File)
+---
 
-4.[Update MongoDB URI](INSTALLATION-INSTRUCTIONS.md#Step-4-Update-MongoDB-URI)
+## 📁 Estructura del Proyecto
 
-5.[Install Backend Dependencies](INSTALLATION-INSTRUCTIONS.md#Step-5-Install-Backend-Dependencies)
+```id="m1n2b3"
+📦 ERP-System
+ ┣ 📂 views/        → Plantillas Pug
+ ┣ 📂 public/
+ ┃ ┣ 📂 css/
+ ┃ ┗ 📂 js/
+ ┣ 📂 routes/
+ ┣ 📂 controllers/
+ ┗ 📄 app.js
+```
 
-6.[Run Setup Script](INSTALLATION-INSTRUCTIONS.md#Step-6-Run-Setup-Script)
+---
 
-7.[Run the Backend Server](INSTALLATION-INSTRUCTIONS.md#Step-7-Run-the-Backend-Server)
+## 🔌 Módulos Principales
 
-8.[Install Frontend Dependencies](INSTALLATION-INSTRUCTIONS.md#Step-8-Install-Frontend-Dependencies)
+### 📄 Facturación
 
-9.[Run the Frontend Server](INSTALLATION-INSTRUCTIONS.md#Step-9-Run-the-Frontend-Server)
+* Crear y gestionar facturas
+* Control de pagos
 
-## Contributing
+---
 
-1.[How to contribute](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#how-to-contribute)
+### 👤 Clientes
 
-2.[Reporting issues](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#reporting-issues)
+* Registro y gestión
+* Historial de transacciones
 
-3.[Working on issues ](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#working-on-issues)
+---
 
-4.[Submitting pull requests](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#submitting-pull-requests)
+### 📦 Inventario
 
-5.[Commit Guidelines](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#commit-guidelines)
+* Control de productos
+* Gestión de stock
 
-6.[Coding Guidelines](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#coding-guidelines)
+---
 
-7.[Questions](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#questions)
+### 📊 Administración
 
+* Panel de control
+* Estadísticas
 
-## Show your support
+---
 
-Dont forget to give a ⭐️ to this project ... Happy coding!
+## 🔐 Seguridad
 
-**🚀 Self-hosted Entreprise Version** : [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
+* Autenticación de usuarios
+* Validación de datos
+* Protección de rutas
 
-## License
+---
 
-IDURAR is Free Open Source Released under the GNU Affero General Public License v3.0.
+## 🤝 Contribuciones
+
+1. Fork del proyecto
+2. Crear una rama (`git checkout -b feature/nueva`)
+3. Commit (`git commit -m "Nueva funcionalidad"`)
+4. Push (`git push origin feature/nueva`)
+5. Crear Pull Request
+
+---
+
+## ⭐ Soporte
+
+Si te gusta este proyecto, no olvides darle una estrella ⭐
+
+---
+
+## 📜 Licencia
+
+Este proyecto es Open Source bajo licencia MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Isai Reyes**
+
