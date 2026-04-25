@@ -1,56 +1,90 @@
-# Contributing Guidelines
+# 🤝 Guía de Contribución
 
-Welcome to the [idurar-erp-crm](<[idurar-erp-crm](https://github.com/idurar/idurar-erp-crm)>) repository! We're excited that you're interested in contributing. Please take a moment to review this document to ensure a smooth collaboration process.
+¡Bienvenido! 👋
+Gracias por tu interés en contribuir a este proyecto. Para mantener un flujo de trabajo organizado y eficiente, te pedimos seguir las siguientes pautas.
 
-## How to Contribute
+---
 
-### Reporting Issues
+## 🚀 Cómo contribuir
 
-If you find a bug or have a suggestion for an enhancement :
+### 🐞 Reportar problemas (Issues)
 
-- please make sure it was not asked before here [issues](https://github.com/idurar/idurar-erp-crm/issues).
-- make sure it is not work in progress here [pull requests](https://github.com/idurar/idurar-erp-crm/pulls).
-- you can then [create an issue](https://github.com/idurar/idurar-erp-crm/issues/new/choose) with the following information:
-  - a short but descriptive title.
-  - a detailed description of the issue or suggestion (if it is a bug include the steps to reproduce it).
+Si encuentras un error o tienes una sugerencia:
 
-### working on issues
+* Verifica que no exista previamente en la sección de *issues*
+* Revisa que no esté en desarrollo en *pull requests*
+* Si no existe, crea un nuevo issue incluyendo:
 
-- comment on issues you want to work on and we will assign you to it.
-- we do accept pull requests even if you are not assigned to an issue but we prefer you to comment on the issue first.
+  * 📌 Título claro y descriptivo
+  * 📝 Descripción detallada
+  * 🔁 Pasos para reproducir (en caso de errores)
 
-### Submitting Pull Requests
+---
 
-1. Fork the repository and create your own branch from `dev` branch.
-2. follow this format for naming branches:
-   - `features/new-profile-page`
-   - `issues/fix-authentication-issue`
-3. Make sure your code follows our [Coding Guidelines](#coding-guidelines).
-4. Commit your changes using clear and descriptive commit messages .
-5. Push your changes to your forked repository.
-6. Submit a pull request to the `dev` branch of this repository. Please include a detailed description of your changes.
+### 🛠️ Trabajar en issues
 
-We'll review your pull request as soon as possible. Feedback and suggestions are always welcome.
+* Comenta en el issue que deseas trabajar
+* Espera asignación (si aplica)
+* También puedes enviar un Pull Request directamente, pero se recomienda comentar primero
 
-### Commit Guidelines
+---
 
-Commits should be as small as possible, while ensuring that each commit is
-correct independently (i.e., each commit should compile and pass tests).
-Please follow this commit format for your commit messages:
+### 🔄 Enviar Pull Requests
 
-- `feat: add new profile page`
-- `fix: resolve authentication issue`
+1. Haz un **fork** del repositorio
+2. Crea una rama desde `dev`
+3. Usa nombres claros para tus ramas:
 
-### Coding Guidelines
+```bash id="a1s2d3"
+feature/nueva-funcionalidad
+fix/error-autenticacion
+```
 
-- Use consistent coding style and follow best practices for readability.
-- Write clear and concise code comments.
-- Don't update dependencies (antd, redux, craco ... ) as it might break the project( we will update all dependencies soon ).
-- Do not include changes that are not related to the issue at hand.
-- Ensure your code has no conflicts and follows existing patterns.
+4. Realiza tus cambios siguiendo las buenas prácticas
+5. Haz commits claros y descriptivos
+6. Sube tus cambios (`git push`)
+7. Abre un Pull Request hacia la rama `dev`
 
-### Questions
+Incluye una descripción clara de los cambios realizados.
 
-If you have any questions, feel free to reach out by creating an issue.
+---
 
-Thank you for contributing to [idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) dont forget to give us a :star: !
+## 📝 Guía de commits
+
+Mantén commits pequeños y funcionales.
+
+Ejemplos:
+
+```bash id="f4g5h6"
+feat: agregar módulo de usuarios
+fix: corregir error en autenticación
+```
+
+---
+
+## 💻 Buenas prácticas de código
+
+* Mantén un estilo de código consistente
+* Escribe comentarios claros cuando sea necesario
+* No modifiques dependencias sin autorización
+* Evita cambios innecesarios
+* Asegúrate de que tu código no tenga conflictos
+
+---
+
+## ❓ Dudas
+
+Si tienes preguntas, puedes crear un issue y con gusto se te apoyará.
+
+---
+
+## ⭐ Apoyo
+
+Si te gusta este proyecto, no olvides darle una estrella ⭐
+
+---
+
+## 🙌 Agradecimiento
+
+Gracias por contribuir y ser parte de este proyecto 🚀
+
